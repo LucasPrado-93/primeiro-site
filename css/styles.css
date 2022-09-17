@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'title';
+    src: url(../fonts/Breaking\ Bad.ttf);
+}
+
+    @font-face {
+    font-family: 'title_2';
+    src: url(../fonts/Heart\ Breaking\ Bad.otf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/BreeSerif-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+#header {
+
+    background: linear-gradient(to right, #29773E, #29773E, #093009);
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+
+}
+
+#header h1 {
+    color: whitesmoke;
+    font-family: 'title_2';
+    font-size: 500%;
+    margin: 0;
+    text-shadow: -2px 3px 7px black;
+}
+
+#container {
+    display: flex;
+}
+
+#menu {
+    width: 15%;
+    background: linear-gradient(to bottom, #29773E, #093009);
+    padding: 20px;
+    color: #ffffff;
+}
+
+#menu span {
+    font-family: 'Bold';
+    font-size: 25px;
+    text-shadow: 3px 3px 10px #ffffff;
+}
+
+#menu ul {
+    padding: 0;
+    list-style: none;
+    font-family: 'Regular';
+    font-size: 120%;
+}
+
+#menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    color: #e5fe00;
+    font-size: 21px;
+}
+
+#content {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#content h1 {
+    font-family: 'regular';
+}
+
+#content img {
+    width: 50%;
+    border-radius: 70%;
+}
+
+#content p {
+    font-family: 'Regular';
+}
+
+#footer {
+    background: linear-gradient(to right,#093009, #369457, #032202);
+padding: 30px 30px
+}
+
+#footer span {
+    font-family: 'bold';
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        padding: 10px 0px;
+    }
+
+    #header h1 {
+        font-size: 400%;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #menu, #content {
+        width: 100%;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    #menu {
+        padding: 5px 0;
+
+    }
+
+    #menu span {
+        display: none;
+
+    }
+
+    #menu ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+
+    }
+
+    #menu li {
+        margin-right: 30px;
+    }
+    #content h1{
+        font-size: 180%;
+    }
+    #footer {
+        padding: 20px 0;
+        text-align: center;
+    }
+    #footer span {
+        font-size: 80%;
+    }
+
+}
