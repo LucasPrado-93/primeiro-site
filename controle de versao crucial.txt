@@ -15,7 +15,22 @@ CRIANDO UMA NOVA VERSAO LOCAL :
 adicionar arquivos :  ( git add .)
    (git commit -m "commit inicial")
 
+ATRELAR O REPOSITORIO LOCAL AO REPOSITORIO REMOTO: 
+
+git branch -M main
+git remote add origin "URL DO REPOSITORIO" (SEM " )
+git push -u origin main
 
 
+EXTENSAO (GIT LENS : MOSTA ULTIMA ATT DO COD )
 
+
+atualizar repositorio (
+git add .
+git commit -m "alteraçao"
+git push -u origin main
+
+)
+
+vercel site para upar site direto do github
 
