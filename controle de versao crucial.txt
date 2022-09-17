@@ -1,0 +1,21 @@
+comandos:
+
+
+iciar o processo (criar repositorio )  : git init
+
+
+criar credenciais (git config --global user.name "Seu Nome " /
+git config --global user.email "Seu Email");
+
+
+
+
+CRIANDO UMA NOVA VERSAO LOCAL :
+
+adicionar arquivos :  ( git add .)
+   (git commit -m "commit inicial")
+
+
+
+
+
